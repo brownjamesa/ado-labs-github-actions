@@ -15,7 +15,7 @@ variable "naming_prefix" {
 variable "asp_tier" {
     type = string
     description = "Tier for App Service Plan (Standard, PremiumV2)"
-    default = "F1"
+    default = "S1"
 }
 
 variable "asp_size" {
